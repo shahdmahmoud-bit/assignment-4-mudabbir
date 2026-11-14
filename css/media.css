@@ -1,0 +1,154 @@
+@media(max-width:1280px) {
+
+    /* *navbar section */
+    aside.navbar {
+        width: 4.2rem;
+    }
+
+    .nav-title {
+        justify-content: center;
+    }
+
+    .nav-title .nav-logo {
+        padding: 13px 10px;
+    }
+
+    .nav-links ul {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links .li-special {
+        width: 45px;
+        height: 45px;
+    }
+
+    .nav-links .norm-li {
+        width: 45px;
+        height: 45px;
+    }
+
+    .btn-1-n,
+    .btn-2-n,
+    .btn-3-n,
+    .btn-4-n {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-bottom .nav-btn {
+        align-items: center;
+    }
+
+    .md-dn {
+        display: none;
+    }
+
+    /* *hero section */
+    .m-r {
+        margin-right: 4.2rem;
+    }
+
+    /* *bills section */
+    .row-two {
+        display: grid;
+        grid-template-areas:
+            "four four four four four four six six six six six six"
+            "five five five five five five five five five five five five "
+        ;
+    }
+
+    /* *visa section */
+    .row-three {
+        display: grid;
+        grid-template-areas:
+            " eight eight eight eight eight eight eight eight ten ten ten ten ten ten ten ten"
+            "seven seven seven seven seven seven seven seven nine nine nine nine nine nine nine nine"
+        ;
+    }
+
+}
+
+
+@media(max-width:1024px) {
+
+    /* *income section start */
+    .income-card p:nth-of-type(2) {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media(max-width:768px) {
+    .sm-dn {
+        display: none;
+    }
+
+    /* *hero section */
+    .m-r {
+        margin-right: 0;
+    }
+
+    /* *bills section */
+    .row-two {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-areas:
+            "four"
+            "five"
+            "six"
+        ;
+    }
+
+    /* *visa section */
+    .row-three {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-areas:
+        "seven"
+        "eight"
+        "nine"
+        "ten"
+        ;
+    }
+}
+
+@media(max-width:640px) {
+    html {
+        font-size: 13px;
+    }
+
+    /* *hero section */
+    .hero-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-top {
+        justify-content: flex-start;
+    }
+
+    .sp-hero {
+        order: 1;
+        text-align: center;
+    }
+
+    .hero-bottom {
+        justify-content: space-between;
+    }
+
+    .ssm-d {
+        display: none;
+    }
+
+    /* *income section start */
+    .row-one {
+        display: grid;
+        gap: 20px;
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+        ;
+    }
+}
